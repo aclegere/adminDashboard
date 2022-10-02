@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: Rubik, serif;
+}
+.sidebar{
+    background-color: #1a50d9;
+    color: white;
+    height: 100vh;
+}
+.sidebarHomeGroup{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
