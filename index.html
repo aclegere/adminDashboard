@@ -10,29 +10,50 @@
 </head>
 <body>
    <div class="sidebar">
-        <div class="sidebarHeader">Dashboard</div>
-        <div class="sidebarHomeGroup">
-            <div>Home</div>
-            <div>Profile</div>
-            <div>Messages</div>
-            <div>History</div>
-            <div>Tasks</div>
-            <div>Communities</div>
+        <div class="sidebarHeader">
+            <img src="dashboard.png" alt="dashboard">
+            <h1>Dashboard</h1>
         </div>
-        <div class="sidebarSettingsGroup">
-            <div>Settings</div>
-            <div>Support</div>
-            <div>Privacy</div>
+        <div class="homegroupColumn">
+            <div class="sidebarHomeLogos">
+                <a href="#home"><img src="home.png" alt="home key"></a><br>
+                <a href="#profile"><img src="profile.png" alt="profile"></a></a><br>
+                <a href="#message"><img src="message.png" alt="messages"></a><br>
+                <a href="#history"><img src="history.png" alt="History"></a><br>
+                <a href="#tasks"><img src="tasks.png" alt="Tasks"></a><br>
+                <a href="#communities"><img src="communities.png" alt="Communities"></a>
+            </div>
+            <div class="sidebarHomeGroup">
+                <div>Home</div>
+                <div>Profile</div>
+                <div>Messages</div>
+                <div>History</div>
+                <div>Tasks</div>
+                <div>Communities</div>
+            </div>
+        </div>
+        <div class="sidebarSettingColumn">
+            <div class="sidebarSettingLogos">
+                <a href="#"><img src="settings.png" alt="settings"></a>
+                <a href="#"><img src="support.png" alt="support"></a>
+                <a href="#"><img src="privacy.png" alt="privacy"></a>
+            </div>
+            <div class="sidebarSettingsGroup">
+                <div>Settings</div>
+                <div>Support</div>
+                <div>Privacy</div>
+            </div>
         </div>
    </div>
 
    <div class="mainContent">
         <div class="header"><!--Search bar, buttons-->
             <div>
+                <img class="glass" src="magnify.png" alt="search glass">
                 <input class="searchbar" type="text" placeholder="Search..">
                 <p class="hi">Hello Anthony!</p>
             </div>
-            <div>
+            <div class="buttons">
                 <button>New</button>
                 <button>Upload</button>
                 <button>Share</button>
@@ -76,13 +97,24 @@
                 </div>
             </div>
             <div class="rightside">
+                <h1>Today's tasks</h1>
                 <div class="announcements">
-                    <h1>Announcements</h1>
-                    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore laborum consequatur est, qui iste quaerat consectetur in temporibus dolores fuga officia exercitationem cum eaque a quia aperiam corporis illum iure. Odio reiciendis quas, nesciunt sed perspiciatis qui quam dicta maxime aperiam magnam officia? Sint mollitia, excepturi maiores odio ex sapiente?</div>
+                    <ul>
+                        <li>Consectetur adipisicing elit</li>
+                        <li>Possimus tenetur tempore debitis velit quisquam deserunt in culpa</li>
+                        <li>Quibusdam tempora praesentium facilis omnis odio soluta</li>
+                        <li>Rem eligendi aliquam dolores labore</li>
+                    </ul>
                 </div>
+                <h1>Past due</h1>
                 <div class="trending">
-                    <h1>Trending</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, amet, iusto eum consectetur mollitia deleniti quis voluptatibus at officia deserunt accusamus, sunt sequi numquam dignissimos. Odio explicabo quae, ratione eaque iste velit repellat corporis saepe officiis illum ipsum qui nobis natus, eos aut ea animi, corrupti minima reiciendis repellendus? Vero?</div>
+                    <ul>
+                        <li>Possimus tenetur tempore debitis velit quisquam deserunt in culpa</li>
+                        <li>Rem eligendi aliquam dolores labore</li>
+                        <li>Consectetur adipisicing elit</li>
+                        <li>Quibusdam tempora omnis odio soluta</li>
+                        
+                    </ul>
                 </div>
             </div>
         </div>
